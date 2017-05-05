@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@drawable/conner_red_back">
+        <!--<shape android:shape="rectangle">-->
+            <!--<corners android:radius="6dp"/>-->
+            <!--<solid android:color="@android:color/holo_red_dark"/>-->
+            <!--<stroke android:width="0.5dp" android:color="@android:color/darker_gray"/>-->
+        <!--</shape>-->
+    </item>
+
+    <item android:drawable="@drawable/conner_white_back">
+        <!--<shape android:shape="rectangle">-->
+            <!--<corners android:radius="6dp"/>-->
+            <!--<stroke android:color="@android:color/darker_gray" android:width="0.5dp"/>-->
+            <!--<solid android:color="@android:color/white"/>-->
+        <!--</shape>-->
+    </item>
+
+</selector>

@@ -1,0 +1,8 @@
+<resources>
+
+    <!--透明标题栏-->
+    <style name="transparent_title" parent="@style/AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

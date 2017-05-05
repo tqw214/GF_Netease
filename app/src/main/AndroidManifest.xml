@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viger.netease">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".Service.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <!---->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".activity.WebViewActivity"/>
+        <activity android:name=".activity.MainActivity"/>
+        <service android:name=".Service.DownloadImgService"/>
+        <activity android:name=".module.news.activity.DetailActivity" android:theme="@style/back_transparent"/>
+        <activity android:name=".module.news.activity.DetailImageActivity"/>
+        <activity android:name=".module.news.activity.FeedBackActivity" android:theme="@style/back_transparent"/>
+        <activity android:name=".module.news.activity.SpecialActivity" android:theme="@style/back_transparent"/>
+
+        <!--test-->
+        <service android:name="com.viger.test.DownloadServcie"/>
+        <activity android:name="com.viger.test.TestActivity">
+        </activity>
+        <activity android:name="com.viger.test.WebViewTestActivity">
+        </activity>
+    </application>
+
+</manifest>
