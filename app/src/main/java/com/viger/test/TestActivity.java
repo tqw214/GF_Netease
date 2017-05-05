@@ -30,7 +30,6 @@ public class TestActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-
         btn_start = (Button) findViewById(R.id.btn_begin);
         btn_pause = (Button) findViewById(R.id.btn_pause);
         btn_cancel = (Button) findViewById(R.id.btn_cancel);

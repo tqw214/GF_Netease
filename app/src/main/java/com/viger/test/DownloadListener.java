@@ -12,6 +12,7 @@ public interface DownloadListener {
     void onPaused();
     void onCancled();
 
+    //这里模拟修改了代码 git——test
 
 
 }
